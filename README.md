@@ -1,6 +1,6 @@
 # 권세준
 
-**Marketing Manager**
+**Computer Vision Engineer** 
 대한민국, 서울 | sejunkwon@outlook.com |  | 
 
 ***
