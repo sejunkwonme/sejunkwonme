@@ -1,7 +1,7 @@
-# John Smith
+# 권세준
 
 **Marketing Manager**
-New York, NY | johnsmith@example.com | +1 (123) 456-7890 | (https://linkedin.com/in/johnsmith)\[LinkedIn]
+대한민국, 서울 | sejunkwon@outlook.com |  | 
 
 ***
 
@@ -33,15 +33,15 @@ New York, NY | May 2016 – July 2019 | 3 years 2 months
 
 ***
 
-## Skills
+## 기술스택
 
-**Marketing Channels:** Social Media, Email Marketing, PPC
-**Tools:** Google Analytics, Mailchimp, HubSpot, Hootsuite
-**Key Strengths:** Strategic Planning, Data Analysis, Team Leadership
+**프로그래밍 언어:** C/C++, Python
+**라이브러리:** OpenCV, OpenCL, Cuda, Gstreamer
+**프레임워크:** Qt, Pytorch
 
 ***
 
-## Education
+## 학력사항
 
-**B.A. in Marketing**
-New York University, 2012 – 2016
+**B.S. in Data Science**
+Sejong University, 2020 – 2025
