@@ -56,5 +56,8 @@ New York, NY | May 2016 – July 2019 | 3 years 2 months
 **B.S. in Data Science**  
 Sejong University, 2020 – 2025  
 
+**병장 만기전역**  
+대한민국 공군 정보체계병, 2017 - 2019  
+
 **High School**  
-선린인터넷고등학교, 2014 - 2016
+선린인터넷고등학교, 2014 - 2017  
