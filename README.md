@@ -26,22 +26,32 @@ New York, NY | May 2016 – July 2019 | 3 years 2 months
 
 ## Projects
 
-**Brand Revival Campaign**
+**Opencl을 이용한 Vggnet-16 추론 최적화 - (TeamProject)**
 
-* Developed and executed a campaign for a clothing brand that resulted in a 50% increase in website traffic and a 30% increase in online sales.
-* Managed influencer partnerships and social media strategy to connect with the target audience.
+* ai 모델을 런타임에서 실행하지 않고 Opencl kernel 함수를 직접 작성하여 convolution연산을 병렬처리  
+* Im2col 기법으로 중복된 연산을 2D 메모리 공간에 투영, 이후 GEMM 기법으로 연산 최적화  
+* relu, softmax 등의 프레임워크 연산을 C언어 레벨에서 배치 단위로 처리할 수 있도록 직접 구현  
+ 
+**Pytorch를 이용한 Yolov1 구현 - (PersonalProject)**
+
+* ai 모델 플랫폼에서 제공되는 모델을 사용하지 않고 직접 Paper를 보고 모델의 구조, 손실함수, metric 등을 구현
+* 그리드 셀 내부와 이미지 전체에 대한 좌표 스케일링이 필요하므로 모든 배치와 i, j 번째 셀에 대해 좌표변환을 수행할 수 있는 함수 구현
+* IoU(Intersection over Union), NMS(Non-Maximum-suppression) 그리고 mAP(mean-Average-Precisoin) 등의 메트릭, 후처리 기능을 배치처리로 수행할 수 있도록 구현
+* 위의 매트릭 후처리는 for문 없이 torch.Tensor의 연산으로 병렬처리 됨 (NMS는 배치처리가 불가하므로 이미지 한장씩 처리)
 
 ***
 
 ## 기술스택
 
-**프로그래밍 언어:** C/C++, Python  
-**라이브러리:** OpenCV, OpenCL, Cuda, Gstreamer  
-**프레임워크:** Qt, Pytorch  
+**프로그래밍 언어:** C/C++, Python
+**라이브러리:** OpenCV, OpenCL, Cuda, Gstreamer
+**프레임워크:** Qt, Pytorch
 
 ***
 
 ## 학력사항
 
-**B.S. in Data Science**
-Sejong University, 2020 – 2025
+**B.S. in Data Science**  
+Sejong University, 2020 – 2025  
+**High School**  
+선린인터넷고등학교, 2014 - 2016
