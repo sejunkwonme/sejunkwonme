@@ -35,9 +35,9 @@ New York, NY | May 2016 – July 2019 | 3 years 2 months
 
 ## 기술스택
 
-**프로그래밍 언어:** C/C++, Python
-**라이브러리:** OpenCV, OpenCL, Cuda, Gstreamer
-**프레임워크:** Qt, Pytorch
+**프로그래밍 언어:** C/C++, Python  
+**라이브러리:** OpenCV, OpenCL, Cuda, Gstreamer  
+**프레임워크:** Qt, Pytorch  
 
 ***
 
