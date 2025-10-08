@@ -5,7 +5,7 @@
 
 ***
 
-## Experience
+## 경험
 
 **Marketing Manager at Creative Agency**
 New York, NY | August 2019 – Present | 4 years
@@ -24,7 +24,7 @@ New York, NY | May 2016 – July 2019 | 3 years 2 months
 
 ***
 
-## Projects
+## 프로젝트
 
 **Opencl을 이용한 Vggnet-16 추론 최적화 - (TeamProject)**
 
@@ -38,6 +38,13 @@ New York, NY | May 2016 – July 2019 | 3 years 2 months
 * 그리드 셀 내부와 이미지 전체에 대한 좌표 스케일링이 필요하므로 모든 배치와 i, j 번째 셀에 대해 좌표변환을 수행할 수 있는 함수 구현
 * IoU(Intersection over Union), NMS(Non-Maximum-suppression) 그리고 mAP(mean-Average-Precisoin) 등의 메트릭, 후처리 기능을 배치처리로 수행할 수 있도록 구현
 * 위의 매트릭 후처리는 for문 없이 torch.Tensor의 연산으로 병렬처리 됨 (NMS는 배치처리가 불가하므로 이미지 한장씩 처리)
+
+**Qt 프레임워크를 이용한 Computer Vision GUI Application 개발**
+
+* 컴퓨터에 연결된 웹캠의 프레임을 받아와 표시하는 기능, 멀티스레딩을 이용하여 GUI와 상호작용 가능, 일부 녹화 가능  
+* 웹캠 왜곡 보정을 위한 카메라 캘리브레이션 기능 구현(예정)  
+* Pytorch로 학습한 기계학습 모델을 불러와 Runtime api를 선택하여 추론할 수 있는 기능 구현(예정)  
+* 기계학습 모델 외에도 3D 기하 알고리즘을 모듈을 통해서도 Pose Estimation 등의 기능을 따로 선택해서 사용할 수 있는 인터페이스 구현(예정)  
 
 ***
 
