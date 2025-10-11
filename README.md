@@ -1,6 +1,6 @@
 # 권세준
 
-**Computer Vision Engineer** | 대한민국, 서울 | sejunkwon@outlook.com |  | 
+**Computer Vision Engineer** | 대한민국, 서울 | sejunkwon@outlook.com |  
 
 ***
 
@@ -53,7 +53,7 @@ New York, NY | May 2016 – July 2019 | 3 years 2 months
 
 **라이브러리:** OpenCV, OpenCL, Cuda, Gstreamer  
 
-**프레임워크:** Qt, Pytorch  
+**프레임워크:** CMake, Qt, Pytorch  
 
 ***
 
