@@ -10,16 +10,11 @@
 New York, NY | August 2019 – Present | 4 years
 
 * Led a team of 5 marketing specialists to develop and execute digital marketing campaigns.
-* Increased brand awareness for clients through targeted advertising, resulting in a 40% increase in overall engagement.
-* Managed social media accounts, content calendars, and performance metrics to ensure consistency across platforms.
-* Spearheaded marketing efforts for product launches, achieving a 20% increase in sales within the first quarter.
 
 **Digital Marketing Specialist at Growth Solutions**
 New York, NY | May 2016 – July 2019 | 3 years 2 months
 
 * Developed content for email marketing campaigns that achieved a 35% open rate.
-* Managed Google Ads campaigns, optimizing keywords and budgets for maximum ROI.
-* Analyzed website traffic using Google Analytics and prepared reports to adjust marketing strategies.
 
 ***
 
@@ -33,17 +28,23 @@ New York, NY | May 2016 – July 2019 | 3 years 2 months
  
 **Pytorch를 이용한 Yolov1 구현 - (PersonalProject)**
 
-* ai 모델 플랫폼에서 제공되는 모델을 사용하지 않고 직접 Paper를 보고 모델의 구조, 손실함수, metric 등을 구현
+* ai 모델 플랫폼에서 제공되는 모델을 사용하지 않고 직접 Paper를 보고 모델의 구조, 손실함수, 데이터 처리 로직 등을 구현
 * 그리드 셀 내부와 이미지 전체에 대한 좌표 스케일링이 필요하므로 모든 배치와 i, j 번째 셀에 대해 좌표변환을 수행할 수 있는 함수 구현
 * IoU(Intersection over Union), NMS(Non-Maximum-suppression) 그리고 mAP(mean-Average-Precisoin) 등의 메트릭, 후처리 기능을 배치처리로 수행할 수 있도록 구현
 * 위의 매트릭 후처리는 for문 없이 torch.Tensor의 연산으로 병렬처리 됨 (NMS는 배치처리가 불가하므로 이미지 한장씩 처리)
 
-**Qt 프레임워크를 이용한 Computer Vision GUI Application 개발**
+**Qt 프레임워크를 이용한 Computer Vision GUI Application 개발 - (PersonalProject)**
 
 * 컴퓨터에 연결된 웹캠의 프레임을 받아와 표시하는 기능, 멀티스레딩을 이용하여 GUI와 상호작용 가능, 일부 녹화 가능  
 * 웹캠 왜곡 보정을 위한 카메라 캘리브레이션 기능 구현(예정)  
-* Pytorch로 학습한 기계학습 모델을 불러와 Runtime api를 선택하여 추론할 수 있는 기능 구현(예정)  
-* 기계학습 모델 외에도 3D 기하 알고리즘을 모듈을 통해서도 Pose Estimation 등의 기능을 따로 선택해서 사용할 수 있는 인터페이스 구현(예정)  
+* Pytorch로 학습한 기계학습 모델을 불러와 Runtime api를 선택하여 추론할 수 있는 기능 구현(예정)
+* CUDA를 이용하여 추론 레이어 중 일부를 GPU Architecture 와 메모리 용량에 최적화되게 custon layer를 구현하여 둥작할수 있는 기능 구현 (예정)
+* 기계학습 모델 외에도 3D 기하 알고리즘을 모듈을 통해서도 Pose Estimation 등의 기능을 따로 선택해서 사용할 수 있는 인터페이스 구현(예정)
+
+**C++ 을 이용한 DodecaPen 논문구현 - (PersonalProject)**
+
+* OpenCV를 이용한 3D Pose Estimation 과 2D -> 3D Reconstruction 알고리즘 구현 (예정)
+* 비선형 최적화를 사용하여 Reconstruction 오차 최소화(예정)
 
 ***
 
