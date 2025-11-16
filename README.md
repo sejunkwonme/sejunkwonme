@@ -12,7 +12,7 @@
 
 ## Projects
 
-**Opencl을 이용한 Vggnet-16 추론 최적화 - (TeamProject)**(https://github.com/sejunkwonme/Vgg16)
+[**Opencl을 이용한 Vggnet-16 추론 최적화 - (TeamProject)**](https://github.com/sejunkwonme/Vgg16)
 
 * CNN Classifier 모델을 런타임에서 실행하지 않고 GEMM Opencl kernel 함수를 직접 작성하여 convolution연산을 GPU 에서 병렬처리  
 * Im2col 기법으로 중복된 연산을 2D 메모리 공간에 투영하여 인수끼리 곱하고 더하는 연산을 한번의 행렬곱으로 연산 최적화  
