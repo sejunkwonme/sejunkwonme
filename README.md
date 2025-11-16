@@ -20,7 +20,7 @@
  
 **Pytorch를 이용한 Yolov1 구현 - (PersonalProject)**
 
-* ultralytics등의 플랫폼에서 제공되는 모델을 사용하지 않고 직접 Paper와 다른 사람의 구현체를 보고 모델의 구조, 손실함수, 데이터 처리 로직 등을 구현
+* ultralytics등의 플랫폼에서 제공되는 모델을 사용하지 않고 직접 Paper를 보고 모델의 구조, 손실함수, 데이터 처리 로직 등을 구현
 * 그리드 셀 내부와 이미지 전체에 대한 좌표 스케일링이 필요하므로 모든 배치와 i, j 번째 셀에 대해 좌표변환을 수행할 수 있는 함수 구현
 * IoU(Intersection over Union), NMS(Non-Maximum-suppression) 그리고 mAP(mean-Average-Precisoin) 등의 데이터 전처리, 후처리 기능을 배치처리로 수행할 수 있도록 구현
 * for문을 최대한 배제하여 torch.Tensor의 연산으로 병렬처리 됨 (NMS는 배치처리가 불가능)
