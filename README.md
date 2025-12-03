@@ -33,11 +33,6 @@
 * CUDA를 이용하여 추론 레이어 중 일부를 GPU Architecture 와 메모리 용량에 최적화되게 custon layer를 구현하여 둥작할수 있는 기능 구현 (예정)
 * 기계학습 모델 외에도 3D 기하 알고리즘을 모듈을 통해서도 Pose Estimation 등의 기능을 따로 선택해서 사용할 수 있는 인터페이스 구현(예정)
 
-[**C++ 을 이용한 DodecaPen 논문구현 - (PersonalProject)**](https://github.com/sejunkwonme/Dodecapen)
-
-* OpenCV를 이용한 3D Pose Estimation 과 2D -> 3D Reconstruction 알고리즘 구현 (예정)
-* 비선형 최적화를 사용하여 Reconstruction 오차 최소화(예정)
-
 ***
 
 ## Tech Stack
