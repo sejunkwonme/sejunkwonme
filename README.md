@@ -1,6 +1,6 @@
 # 권세준
 
-**Computer Vision Engineer** | 대한민국, 서울 | sejunkwon@outlook.com |  
+**Machine Vision Engineer** | 대한민국, 서울 | sejunkwon@outlook.com |  
 
 ***
 
